@@ -11,6 +11,7 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:spanCount="3"
         android:scrollbars="vertical"
-        app:layoutManager="LinearLayoutManager" />
+        app:layoutManager="GridLayoutManager" />
 </FrameLayout>
